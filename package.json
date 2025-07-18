@@ -1,0 +1,14 @@
+{
+  "name": "typescript-vehicle-exercise",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/vehicle.js",
+    "dev": "tsc && node dist/vehicle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}
